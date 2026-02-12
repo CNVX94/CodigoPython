@@ -2,7 +2,7 @@ Registro de libros.
 
 Si lo puedo prestar, si no, información de los objetos que tenga yo ahi
 
-# Crear un sistema para gesrionar una biblioteca con las siguientes clases, Libro, usuario y biblioteca.
+# Crear un sistema para gestionar una biblioteca con las siguientes clases, Libro, usuario y biblioteca.
 
 ## libros.py
 
