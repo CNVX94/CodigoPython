@@ -9,10 +9,10 @@ Este repositorio contiene prácticas escolares organizadas de la siguiente maner
 - **`/Intro/`** - Primera práctica
 - **`/Estructuras Repetitivas/`** - Segunda práctica: Estructuras de datos
 - **`/POO/`** - Tercera práctica: POO
-- Autos
-- Cuenta Bancaria
-- Libros
-- Rectangulo
+    - Autos
+    - Cuenta Bancaria
+    - Libros
+    - Rectangulo
 
 
 
