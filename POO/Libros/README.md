@@ -49,7 +49,6 @@ python index.py
 
 ~~~
 
-## Prestamo
 
 ## libros.py
 ~~~python
