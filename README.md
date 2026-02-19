@@ -13,8 +13,9 @@ Este repositorio contiene prácticas escolares organizadas de la siguiente maner
     - Cuenta Bancaria
     - Libros
     - Rectangulo
-
-
+- **`/TSyD/`** - Tuplas, sets y diccionarios
+- **`/Practica2/`** - Ejercicios para IA
+- **`/AO/`** - Algoritmos de Ordenamiento
 
 
 
