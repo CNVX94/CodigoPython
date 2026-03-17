@@ -39,6 +39,19 @@ modelo.fit(X,y)
 # Matriz vectorizada (X) y la variable objetivo (y) se utilizan para entrenar el modelo de Naive Bayes Multinomial. 
 # El modelo aprende a asociar las características de los correos electrónicos con sus respectivas clases (spam o no_spam). 
 
+# Ver el vocabulario generado por CountVectorizer
+palabras = vectorizador.get_feature_names_out()
+print("Vocabulario:", palabras)
+
+tabla_prob = pd.DataFrame(
+    modelo.feature_log_prob_,
+    columns=palabras,
+    index=modelo.classes_
+)
+
+tabla_prob.loc["spam"].sort_values(ascending=False)
+print(tabla_prob)
+ 
 # Predicción
 
 nuevo_correo = ["reunion mañana"]
