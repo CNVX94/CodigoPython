@@ -32,7 +32,7 @@ y = df['Clase']
 modelo = MultinomialNB()
 modelo.fit(X, y)
 
-nuevo_correo = ["producto de mala calidad"]
+nuevo_correo = ["Producto de buena calidad"]
 nuevo_X = vectorizador.transform(nuevo_correo)
 prediccion = modelo.predict(nuevo_X)
 print(prediccion)
